@@ -23,7 +23,7 @@ The primary objective was to transform raw, unstructured transactional data into
 The raw dataset contained *753 transactions* with several quality issues that were systematically resolved in the Datos_Limpios phase:
 
 1. *Text Standardization:* Fixed inconsistent city naming conventions (e.g., standardizing capitalization and regional variants for cities like Monterrey and Bogotá).
-2. *Missing Value Imputation:* Identified and resolved 10 missing entries in Precio unitario and 6 missing entries in Monto total using deterministic price mapping and quantity back-calculations.
+2. *Missing Value Imputation:* Identified and resolved 10 missing entries in "Precio unitario" and 6 missing entries in "Monto total" using deterministic price mapping and quantity back-calculations.
 3. *Feature Engineering:* Deconstructed composite product strings (e.g., Laptop-Oficina-32GB) into three distinct analytical dimensions:
    * *Category:* Laptop, Auriculares, Tablet
    * *Type:* Oficina, Gaming, Bluetooth, Estándar
